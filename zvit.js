@@ -323,12 +323,12 @@ else if (labNumber === 4) {
     };
     menu.appendChild(button404);
 
-    let button405 = document.createElement("button");
-    button405.textContent = "Альтернативне рішення";
-    button405.onclick = function() {
-        displaySubMenuContent("Альтернативне рішення");
-    };
-    menu.appendChild(button405);
+    // let button405 = document.createElement("button");
+    // button405.textContent = "Альтернативне рішення";
+    // button405.onclick = function() {
+    //     displaySubMenuContent("Альтернативне рішення");
+    // };
+    // menu.appendChild(button405);
 
 
     let button406 = document.createElement("button");
@@ -938,7 +938,29 @@ function displaySubMenuContent(buttonText) {
             contentHTML = `
                 <h3>ЗАВДАННЯ №2 Виконання адаптивної верстки</h3>
                 
-                <p>Резулььтати виконання адаптивної верстки:</p>
+                <p>Результати виконання адаптивної верстки:</p>
+
+                <br>
+                <p>1) Десктопна версія (ширина від 1001 рх)</p>
+                <img src="lr4_11.jpg" alt="lr4_11">   
+                <br>
+                
+                <p>2) Планшетна версія (ширина від 501 до 1000 рх)</p>
+                <img src="lr4_12.jpg" alt="lr4_12">
+                <img src="lr4_13.jpg" alt="lr4_13">  
+                
+                <br>
+                <p>3) Версія під мобільний телефон (ширина до 500 рх)</p>
+                <img src="lr4_14.jpg" alt="lr4_14">   
+                <br>
+
+                <br>
+                <p>Фрагмент тексту файлу стилів - медіазапити:</p>
+                <img src="lr4_15.jpg" alt="lr4_15">   
+                <br>
+
+
+    
                                 
                 `;
                 break;
@@ -966,14 +988,14 @@ function displaySubMenuContent(buttonText) {
                 break;
                 
                                 
-            case "Альтернативне рішення":
-            contentHTML = `
-                <h3>Альтернативне рішення</h3>
+            // case "Альтернативне рішення":
+            // contentHTML = `
+            //     <h3>Альтернативне рішення</h3>
                         
-                <p> </p>
+            //     <p> </p>
                                         
-                `;
-                break;
+            //     `;
+            //     break;
                     
             case "ВИСНОВКИ до ЛР №4":
             contentHTML = `
